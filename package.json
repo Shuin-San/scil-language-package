@@ -1,5 +1,5 @@
 {
-  "name": "codemirror-lang-scil",
+  "name": "scil-language-package",
   "version": "0.1.0",
   "description": "SCIL language support for CodeMirror",
   "scripts": {
@@ -18,7 +18,9 @@
   "dependencies": {
     "@codemirror/language": "^6.0.0",
     "@lezer/highlight": "^1.0.0",
-    "@lezer/lr": "^1.0.0"
+    "@lezer/lr": "^1.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "devDependencies": {
     "@lezer/generator": "^1.0.0",
