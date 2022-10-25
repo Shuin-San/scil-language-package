@@ -1,5 +1,5 @@
 {
-  "name": "codemirror-lang-SCIL",
+  "name": "codemirror-lang-scil",
   "version": "0.1.0",
   "description": "SCIL language support for CodeMirror",
   "scripts": {
@@ -28,5 +28,22 @@
     "rollup-plugin-ts": "^3.0.2",
     "typescript": "^4.3.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuin-San/scil-language-package.git"
+  },
+  "keywords": [
+    "scil",
+    "language",
+    "package"
+  ],
+  "author": "Vassilios Zalimidis",
+  "bugs": {
+    "url": "https://github.com/Shuin-San/scil-language-package/issues"
+  },
+  "homepage": "https://github.com/Shuin-San/scil-language-package#readme"
 }
